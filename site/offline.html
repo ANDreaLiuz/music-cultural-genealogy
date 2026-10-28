@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An exploratory research project on musical relationships beyond genre labels, with an entirely synthetic offline graph illustration.">
+  <meta name="color-scheme" content="light">
+  <title>Music Cultural Genealogy — ANDreaLiuz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="synthetic-data.js" defer></script>
+  <script src="explorer.js" defer></script>
+</head>
+<body><p class="edition-note">Offline reading edition. Document links open local Markdown files; use a Markdown viewer for formatted reading. <a href="index.html">Publication edition</a> uses planned GitHub document addresses.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a href="#" class="wordmark">Music Cultural<br><span>Genealogy</span></a>
+    <nav aria-label="Page navigation"><a href="#question">Research</a><a href="#explorer">Illustration</a><a href="#limits">Evidence</a></nav>
+    <span class="review-label">Research in progress</span>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="eyebrow">A research project by ANDreaLiuz</p>
+      <h1 id="hero-title">What makes two<br>recordings <em>related?</em></h1>
+      <div class="hero-bottom"><p class="lead">Mapping musical relationships beyond genre labels — and asking what a graph can actually tell us about music, listening and change.</p><p class="scope">Research in progress<br><strong>Independent perceptual<br>validation pending</strong></p></div>
+      <a class="text-link" href="#explorer">Explore an entirely synthetic example <span aria-hidden="true">↗</span></a>
+    </section>
+    <section id="question" class="research wrap section" aria-labelledby="research-title">
+      <div><p class="eyebrow">01 / The research question</p><h2 id="research-title">Beyond a genre label.<br>Before a family tree.</h2></div>
+      <div class="prose"><p>Audio similarity can reveal a useful neighbor. It does not automatically identify a shared musical experience, a historical influence or a future favorite.</p><p>This project explores recording-level representations, neighborhoods and communities, while separating computational structure from independently validated musical relationships.</p><p>Earlier prototypes used established audio descriptors, Leiden community detection and a separately computed Ward hierarchy. The research now asks which relationships those tools preserve — and what evidence would be needed to trust them.</p><a href="../docs/research_questions.md" class="text-link">Read the research questions <span aria-hidden="true">↗</span></a></div>
+      <figure class="pipeline"><p class="diagram-hint">On a narrow screen, scroll the diagram sideways to read every label.</p><div class="diagram-scroll" tabindex="0" role="region" aria-label="Conceptual research diagram, horizontally scrollable on narrow screens"><img src="../assets/relationship-pipeline.svg" width="1200" height="470" alt="Conceptual pipeline from recordings to representations and estimated relations, with independent validation as a separate research step."></div><figcaption>Original conceptual diagram. This is an argument for validation, not a completed validated pipeline.</figcaption></figure>
+    </section>
+    <section id="explorer" class="exploration section" aria-labelledby="explorer-title">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / A safe, synthetic illustration</p><h2 id="explorer-title">Change the view.<br>Watch the neighbors move.</h2></div><p>The positions stay fixed. Only the edges change. Two invented feature views let us inspect the consequences of a modeling choice.</p></div>
+      <div class="synthetic-notice"><strong>SYNTHETIC · NOT A RESEARCH RESULT</strong><span>No real songs, audio, people or study features. No Leiden or Ward is run. Colors are assigned toy surface groups, not communities.</span></div>
+      <div class="explorer-grid">
+        <aside class="controls" aria-label="Synthetic graph controls">
+          <h3>Choose a representation</h3>
+          <label for="weight">Surface weight <output id="weight-value" for="weight">65%</output></label><input id="weight" type="range" min="0" max="100" value="65" step="5" aria-describedby="weight-help"><p id="weight-help" class="help">Pattern receives the remaining weight. These are designed toy views, not measured musical factors.</p>
+          <label for="neighbors">Neighbors per node <output id="neighbors-value" for="neighbors">2</output></label><input id="neighbors" type="range" min="1" max="5" value="2" step="1">
+          <label for="threshold">Minimum similarity <output id="threshold-value" for="threshold">0.55</output></label><input id="threshold" type="range" min="20" max="99" value="55" step="1"><p class="help">Edges use weighted cosine, then top-k selection. Isolated nodes are allowed.</p>
+          <button id="reset" type="button">Reset illustration</button>
+          <p id="graph-summary" class="graph-summary" role="status" aria-live="polite"></p>
+        </aside>
+        <div class="graph-panel"><p class="diagram-hint">Scroll sideways to inspect the full graph. The selector also lists each node's neighbors.</p><div class="graph-viewport" tabindex="0" role="region" aria-label="Synthetic graph, horizontally scrollable on narrow screens"><svg id="graph" viewBox="0 0 720 510" role="group" aria-labelledby="graph-title graph-desc"><title id="graph-title">Synthetic neighborhood graph</title><desc id="graph-desc">Eighteen invented nodes in a fixed circle. Select a node with a pointer, Tab and Enter, or the selector below. Edges are generic weighted-cosine neighbors, not lineage or community membership.</desc></svg></div><div class="graph-caption"><span><i class="swatch s1"></i><i class="swatch s2"></i><i class="swatch s3"></i> Assigned surface groups</span><span>Fixed layout · select a node</span></div></div>
+        <aside class="selection" aria-labelledby="selected-title"><label for="selected-node">Inspect a synthetic node</label><select id="selected-node"></select><h3 id="selected-title">S01 neighborhood</h3><p id="node-explanation" class="help"></p><ol id="neighbor-list" class="neighbor-list"></ol><p class="help">These are toy similarity values. They are not recommendation accuracy, human ratings or research statistics.</p></aside>
+      </div>
+      <noscript><div class="no-script"><p>The controls require JavaScript. This static preview shows the same entirely synthetic example.</p><img src="../figures/synthetic-neighborhoods.svg" width="900" height="620" alt="Static preview of eighteen invented nodes with synthetic cosine neighbor edges."></div></noscript>
+      <details class="method"><summary>What exactly is this illustration doing?</summary><p>Each invented node has two three-coordinate nonnegative vectors. The score is a weighted mean of cosine similarity within each view. Each node retains up to k other nodes at or above the threshold; the graph draws the undirected union of those choices. Node positions follow a fixed circle and do not encode distance.</p><p>The vectors are deterministic arithmetic, with designer-assigned groups. This is a new teaching example, independent of the original research implementation. It cannot establish a real musical community or historical relationship.</p><a href="../demo/build_synthetic_music_graph.py">Inspect the standalone generator</a></details>
+      </div>
+    </section>
+    <section id="limits" class="wrap section" aria-labelledby="limits-title"><div class="section-heading"><div><p class="eyebrow">03 / Evidence and boundaries</p><h2 id="limits-title">Three different<br>claims. Three checks.</h2></div><p>A useful research map makes its unanswered questions visible. Each step needs its own evidence.</p></div>
+      <div class="evidence-grid"><article><span class="card-number">A</span><h3>Acoustic structure</h3><p>Local prototypes and computational audits explore how representations organize recordings. Parameters, normalization and temporal context can change the neighborhood.</p><span class="status">Exploratory computation</span></article><article><span class="card-number">B</span><h3>Perceived relationship</h3><p>Independent judgments on the exact material are needed to test what the measured proximity means to listeners.</p><span class="status">Validation pending</span></article><article><span class="card-number">C</span><h3>Culture and change</h3><p>Historical influence needs historical sources. Preference change needs repeated liking, listening opportunity and strong baselines.</p><span class="status">Research hypothesis</span></article></div>
+      <div class="boundary"><p class="boundary-line">A community is not an ancestor.<br>A neighbor is not a future favorite.</p><div><p>“Genealogy” remains an organizing metaphor. This project does not claim a validated historical tree, causal preference change, a new embedding algorithm or improved recommendation performance.</p><a class="text-link" href="../RESEARCH_STATUS.md">Read the full research status <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+    <section class="wrap section reading" aria-labelledby="reading-title"><p class="eyebrow">04 / Read further</p><h2 id="reading-title">The argument,<br>in a few short notes.</h2><div class="reading-links"><a href="../docs/representation_pipeline.md"><span>01</span> Representations and distance <b aria-hidden="true">↗</b></a><a href="../docs/community_detection.md"><span>02</span> Communities and hierarchy <b aria-hidden="true">↗</b></a><a href="../docs/lineage_hypothesis_and_limits.md"><span>03</span> Hypothesis and limits <b aria-hidden="true">↗</b></a><a href="../docs/evidence_overview.md"><span>04</span> Evidence overview <b aria-hidden="true">↗</b></a><a href="../DATA_AND_COPYRIGHT.md"><span>05</span> Data, copyright and attribution <b aria-hidden="true">↗</b></a></div></section>
+  </main>
+  <footer class="wrap footer"><p>Music Cultural Genealogy<br><span>Research direction and project development: ANDreaLiuz.</span></p><p>Established research dependencies retain their authorship.<br>Portfolio production and synthetic illustration use AI coding assistance.<br>No audio, external requests or stored interaction data.</p><a href="../README.md">Repository overview ↗</a></footer>
+</body>
+</html>

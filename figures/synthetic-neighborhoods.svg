@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+<title id="t">Synthetic neighborhoods, not a research result</title>
+<desc id="d">Eighteen invented nodes, two hand-constructed feature views, generic weighted cosine and top-k wiring. Fixed circle layout. Colors show assigned toy surface groups, not communities. No real music is represented. Leiden and Ward are not run.</desc>
+<rect width="900" height="620" fill="#fafbf8"/>
+<text x="36" y="40" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#80619c">SYNTHETIC / ILLUSTRATIVE ONLY</text>
+<text x="36" y="78" font-family="Arial,sans-serif" font-size="26" fill="#142435">A different representation changes the neighborhood.</text>
+<g transform="translate(85,55)">
+<line x1="360.0" y1="44.0" x2="492.4142" y2="92.1948" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="360.0" y1="44.0" x2="538.4012" y2="147.0" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="360.0" y1="44.0" x2="562.8704" y2="285.7715" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="430.4561" y1="56.4233" x2="562.8704" y2="214.2285" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="430.4561" y1="56.4233" x2="562.8704" y2="285.7715" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="492.4142" y1="92.1948" x2="562.8704" y2="285.7715" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="538.4012" y1="147.0" x2="562.8704" y2="285.7715" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="562.8704" y1="214.2285" x2="562.8704" y2="285.7715" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="538.4012" y1="353.0" x2="430.4561" y2="443.5767" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="538.4012" y1="353.0" x2="360.0" y2="456.0" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="492.4142" y1="407.8052" x2="289.5439" y2="443.5767" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="492.4142" y1="407.8052" x2="227.5858" y2="407.8052" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="430.4561" y1="443.5767" x2="289.5439" y2="443.5767" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="430.4561" y1="443.5767" x2="227.5858" y2="407.8052" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="360.0" y1="456.0" x2="227.5858" y2="407.8052" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="289.5439" y1="443.5767" x2="227.5858" y2="407.8052" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="181.5988" y1="353.0" x2="157.1296" y2="214.2285" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="181.5988" y1="353.0" x2="181.5988" y2="147.0" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="285.7715" x2="157.1296" y2="214.2285" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="285.7715" x2="227.5858" y2="92.1948" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="285.7715" x2="289.5439" y2="56.4233" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="214.2285" x2="181.5988" y2="147.0" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="214.2285" x2="227.5858" y2="92.1948" stroke="#c8c4d1" stroke-width="1.6"/>
+<line x1="157.1296" y1="214.2285" x2="289.5439" y2="56.4233" stroke="#c8c4d1" stroke-width="1.6"/>
+<circle cx="360.0" cy="44.0" r="17" fill="#80619c"/>
+<text x="360.0" y="48.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S01</text>
+<circle cx="430.4561" cy="56.4233" r="17" fill="#80619c"/>
+<text x="430.4561" y="60.4233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S02</text>
+<circle cx="492.4142" cy="92.1948" r="17" fill="#80619c"/>
+<text x="492.4142" y="96.1948" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S03</text>
+<circle cx="538.4012" cy="147.0" r="17" fill="#80619c"/>
+<text x="538.4012" y="151.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S04</text>
+<circle cx="562.8704" cy="214.2285" r="17" fill="#80619c"/>
+<text x="562.8704" y="218.2285" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S05</text>
+<circle cx="562.8704" cy="285.7715" r="17" fill="#80619c"/>
+<text x="562.8704" y="289.7715" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S06</text>
+<circle cx="538.4012" cy="353.0" r="17" fill="#387f81"/>
+<text x="538.4012" y="357.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S07</text>
+<circle cx="492.4142" cy="407.8052" r="17" fill="#387f81"/>
+<text x="492.4142" y="411.8052" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S08</text>
+<circle cx="430.4561" cy="443.5767" r="17" fill="#387f81"/>
+<text x="430.4561" y="447.5767" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S09</text>
+<circle cx="360.0" cy="456.0" r="17" fill="#387f81"/>
+<text x="360.0" y="460.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S10</text>
+<circle cx="289.5439" cy="443.5767" r="17" fill="#387f81"/>
+<text x="289.5439" y="447.5767" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S11</text>
+<circle cx="227.5858" cy="407.8052" r="17" fill="#387f81"/>
+<text x="227.5858" y="411.8052" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S12</text>
+<circle cx="181.5988" cy="353.0" r="17" fill="#95652e"/>
+<text x="181.5988" y="357.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S13</text>
+<circle cx="157.1296" cy="285.7715" r="17" fill="#95652e"/>
+<text x="157.1296" y="289.7715" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S14</text>
+<circle cx="157.1296" cy="214.2285" r="17" fill="#95652e"/>
+<text x="157.1296" y="218.2285" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S15</text>
+<circle cx="181.5988" cy="147.0" r="17" fill="#95652e"/>
+<text x="181.5988" y="151.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S16</text>
+<circle cx="227.5858" cy="92.1948" r="17" fill="#95652e"/>
+<text x="227.5858" y="96.1948" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S17</text>
+<circle cx="289.5439" cy="56.4233" r="17" fill="#95652e"/>
+<text x="289.5439" y="60.4233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff">S18</text>
+</g>
+<text x="36" y="562" font-family="Arial,sans-serif" font-size="14" fill="#142435">Fixed illustrative layout · assigned colors · no community detection · no historical edges</text>
+<text x="36" y="589" font-family="Arial,sans-serif" font-size="13" fill="#596671">Toy views only. No audio, track metadata, study results or participant data.</text>
+</svg>
