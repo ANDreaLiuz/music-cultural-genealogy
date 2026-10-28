@@ -10,7 +10,7 @@ The central challenge is measurement: an acoustic neighbor is not automatically 
 
 ![Original diagram separating representations, relations and validation](assets/relationship-pipeline.svg)
 
-**[Research site — planned](https://andrealiuz.github.io/music-cultural-genealogy/site/index.html) · [Offline HTML source](site/offline.html)** · [Research status](RESEARCH_STATUS.md) · [Data and copyright](DATA_AND_COPYRIGHT.md)
+**[Research site](https://andrealiuz.github.io/music-cultural-genealogy/site/index.html) · [Offline HTML source](site/offline.html)** · [Research status](RESEARCH_STATUS.md) · [Data and copyright](DATA_AND_COPYRIGHT.md)
 
 ## What the work contributes
 
@@ -28,7 +28,7 @@ These are bounded descriptions of ongoing work. This portfolio contains no origi
 
 ![Synthetic graph preview; fixed illustrative layout](figures/synthetic-neighborhoods.svg)
 
-The [interactive explorer — planned](https://andrealiuz.github.io/music-cultural-genealogy/site/index.html#explorer) shows how changing a representation weight, neighbor count or similarity threshold changes a graph. Its nodes and features are entirely synthetic. The fixed circular layout is drawn for legibility, not computed from music.
+The [interactive explorer](https://andrealiuz.github.io/music-cultural-genealogy/site/index.html#explorer) shows how changing a representation weight, neighbor count or similarity threshold changes a graph. Its nodes and features are entirely synthetic. The fixed circular layout is drawn for legibility, not computed from music.
 
 **This demonstration does not run Leiden or Ward. It is not a reproduction of a research experiment.** It uses only a generic weighted cosine score and top-k neighbors. No node corresponds to a real song, artist, listener or culture.
 
@@ -59,4 +59,4 @@ The portfolio diagrams and standalone synthetic illustration were newly authored
 
 Research remains in progress; no submission, acceptance or publication is asserted here. No open-source license has been selected for this portfolio.
 
-These website addresses are planned release destinations and have not been verified as active. The offline HTML source is a file view on GitHub; download the repository and open `site/offline.html` to run it locally. Markdown notes remain local files in that edition.
+The GitHub repository and Pages links were checked on 28 October 2026. The offline HTML source is a file view on GitHub; download the repository and open `site/offline.html` to run it locally. Markdown notes remain local files in that edition.
