@@ -10,24 +10,35 @@
   <script src="synthetic-data.js" defer></script>
   <script src="explorer.js" defer></script>
 </head>
-<body><p class="edition-note">Offline reading edition. Document links open local Markdown files; use a Markdown viewer for formatted reading. <a href="index.html">Publication edition</a> links to the verified GitHub documents.</p>
-  <a class="skip" href="#main">Skip to content</a>
+<body><a class="skip" href="#main">Skip to content</a><p class="edition-note"><strong>VISUAL EDITION V6 · RESEARCH IN PROGRESS</strong><span>Offline edition · links open local Markdown. <a href="index.html">Publication reading edition</a>.</span></p>
+  
   <header class="masthead wrap">
     <a href="#" class="wordmark">Music Cultural<br><span>Genealogy</span></a>
     <nav aria-label="Page navigation"><a href="#question">Research</a><a href="#explorer">Illustration</a><a href="#limits">Evidence</a></nav>
-    <span class="review-label">Research in progress</span>
+    <span class="review-label">Independent research · in progress</span>
   </header>
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
-      <p class="eyebrow">A research project by ANDreaLiuz</p>
-      <h1 id="hero-title">What makes two<br>recordings <em>related?</em></h1>
-      <div class="hero-bottom"><p class="lead">Mapping musical relationships beyond genre labels — and asking what a graph can actually tell us about music, listening and change.</p><p class="scope">Research in progress<br><strong>Independent perceptual<br>validation pending</strong></p></div>
-      <a class="text-link" href="#explorer">Explore an entirely synthetic example <span aria-hidden="true">↗</span></a>
+      <div class="hero-copy"><p class="eyebrow">Music, listening &amp; computational relationships</p>
+      <h1 id="hero-title">What makes two<br>recordings<br><em>related?</em></h1>
+      <p class="lead">Mapping musical relationships beyond genre labels — and asking what a graph can actually tell us about music, listening and change.</p>
+      <a class="text-link" href="#explorer">Explore the synthetic graph <span aria-hidden="true">↓</span></a>
+      <p class="hero-status">A research project by ANDreaLiuz<br><strong>Independent perceptual validation pending</strong></p></div>
+      <figure class="atlas"><div class="concept-label">Conceptual feature atlas</div><img src="../assets/v6/acoustic-feature-atlas.svg" width="560" height="550" alt="Original abstract marks grouped under texture, repetition and layering. Imagined listening cues; no audio, waveform or research features are encoded."><figcaption>Original concept illustration. The marks suggest listening questions; they do not measure a recording.</figcaption></figure>
     </section>
+    <div class="listening-note wrap"><span class="note-label">Why this question?</span><p>Texture, repetition and layering offer ways to listen across genre boundaries. The research asks which connections a representation preserves — and what it leaves for listeners and cultural evidence to explain.</p></div>
     <section id="question" class="research wrap section" aria-labelledby="research-title">
       <div><p class="eyebrow">01 / The research question</p><h2 id="research-title">Beyond a genre label.<br>Before a family tree.</h2></div>
       <div class="prose"><p>Audio similarity can reveal a useful neighbor. It does not automatically identify a shared musical experience, a historical influence or a future favorite.</p><p>This project explores recording-level representations, neighborhoods and communities, while separating computational structure from independently validated musical relationships.</p><p>Earlier prototypes used established audio descriptors, Leiden community detection and a separately computed Ward hierarchy. The research now asks which relationships those tools preserve — and what evidence would be needed to trust them.</p><a href="../docs/research_questions.md" class="text-link">Read the research questions <span aria-hidden="true">↗</span></a></div>
-      <figure class="pipeline"><p class="diagram-hint">On a narrow screen, scroll the diagram sideways to read every label.</p><div class="diagram-scroll" tabindex="0" role="region" aria-label="Conceptual research diagram, horizontally scrollable on narrow screens"><img src="../assets/relationship-pipeline.svg" width="1200" height="470" alt="Conceptual pipeline from recordings to representations and estimated relations, with independent validation as a separate research step."></div><figcaption>Original conceptual diagram. This is an argument for validation, not a completed validated pipeline.</figcaption></figure>
+      <figure class="relationship-plate"><div class="concept-label">Conceptual comparison · no research data</div><p class="diagram-hint">On a narrow screen, scroll sideways to compare both questions.</p><div class="diagram-scroll" tabindex="0" role="region" aria-label="Similarity and history conceptual comparison; scroll horizontally on narrow screens"><img src="../assets/v6/similarity-and-history.svg" width="1000" height="340" loading="lazy" alt="An invented undirected neighborhood beside separate cards for sources, dates and context. Similarity and historical evidence answer different questions; no genealogy is drawn."></div><figcaption>Original concept illustration. Computational proximity supplies a hypothesis; historical relationships need independent sources and context.</figcaption></figure>
+      <div class="research-route" aria-labelledby="route-title"><div class="route-heading"><h3 id="route-title">From a recording to a research question</h3><p>A conceptual method map, not a completed validated pipeline.</p></div>
+        <ol class="route-steps">
+          <li><span class="route-kicker">Input</span><h4>Recording</h4><p>Identity, edition, excerpt and production context.</p></li>
+          <li><span class="route-kicker">Compression</span><h4>Representation</h4><p>Descriptors or embeddings retain some details and lose others.</p></li>
+          <li class="route-constructions"><span class="route-kicker">Two constructions</span><h4>Relationships</h4><p>Similarities → neighborhood graph → Leiden communities.</p><p>Representation → separate Ward hierarchy.</p></li>
+          <li><span class="route-kicker">Independent check</span><h4>Validation</h4><p>Listener judgments, historical sources or longitudinal tests, matched to the claim.</p></li>
+        </ol><p class="route-scope">Leiden labels did not generate the Ward tree. The explorer below runs neither algorithm.</p>
+      </div>
     </section>
     <section id="explorer" class="exploration section" aria-labelledby="explorer-title">
       <div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / A safe, synthetic illustration</p><h2 id="explorer-title">Change the view.<br>Watch the neighbors move.</h2></div><p>The positions stay fixed. Only the edges change. Two invented feature views let us inspect the consequences of a modeling choice.</p></div>
@@ -54,6 +65,7 @@
     </section>
     <section class="wrap section reading" aria-labelledby="reading-title"><p class="eyebrow">04 / Read further</p><h2 id="reading-title">The argument,<br>in a few short notes.</h2><div class="reading-links"><a href="../docs/representation_pipeline.md"><span>01</span> Representations and distance <b aria-hidden="true">↗</b></a><a href="../docs/community_detection.md"><span>02</span> Communities and hierarchy <b aria-hidden="true">↗</b></a><a href="../docs/lineage_hypothesis_and_limits.md"><span>03</span> Hypothesis and limits <b aria-hidden="true">↗</b></a><a href="../docs/evidence_overview.md"><span>04</span> Evidence overview <b aria-hidden="true">↗</b></a><a href="../DATA_AND_COPYRIGHT.md"><span>05</span> Data, copyright and attribution <b aria-hidden="true">↗</b></a></div></section>
   </main>
-  <footer class="wrap footer"><p>Music Cultural Genealogy<br><span>Research direction and project development: ANDreaLiuz.</span></p><p>Established research dependencies retain their authorship.<br>Portfolio production and synthetic illustration use AI coding assistance.<br>No audio, external requests or stored interaction data.</p><a href="../README.md">Repository overview ↗</a></footer>
+  <footer class="wrap footer"><p>Music Cultural Genealogy<br><span>Research direction and project development: ANDreaLiuz.</span></p><p>Established research dependencies retain their authorship.<br>Original concept vectors, portfolio copy and synthetic illustration use AI coding assistance.<br>Visual edition V6 · No audio, external requests or stored interaction data. No reuse license is granted.</p><a href="../README.md">Repository overview ↗</a></footer>
 </body>
 </html>
+

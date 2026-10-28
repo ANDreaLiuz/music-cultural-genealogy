@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">Similarity and history ask different questions — conceptual illustration</title>
+  <desc id="desc">An invented undirected neighborhood appears beside unconnected document cards labelled sources, dates and context. Similarity alone does not establish a historical relationship. No marks refer to actual recordings or historical sources.</desc>
+  <rect width="1000" height="340" fill="#f0ebf3"/>
+  <path d="M500 35V305" stroke="#cbbbd4"/>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#493554">
+    <text x="36" y="45" font-size="12" letter-spacing="1.5">SIMILARITY</text><text x="536" y="45" font-size="12" letter-spacing="1.5">HISTORY</text>
+    <text x="36" y="72" font-size="14">A computational neighborhood</text><text x="536" y="72" font-size="14">A relationship needing sources</text>
+  </g>
+  <g stroke="#8e719f" stroke-width="2" fill="none"><path d="M124 173L229 133L346 180L244 233L124 173M229 133L244 233M124 173L80 241"/></g>
+  <g fill="#735488" stroke="#faf8f3" stroke-width="5"><circle cx="124" cy="173" r="18"/><circle cx="229" cy="133" r="18"/><circle cx="346" cy="180" r="18"/><circle cx="244" cy="233" r="18"/><circle cx="80" cy="241" r="12"/></g>
+  <g fill="#faf8f3" stroke="#9a82aa" stroke-width="1.5"><rect x="547" y="124" width="116" height="123" rx="2"/><rect x="690" y="110" width="116" height="123" rx="2"/><rect x="834" y="136" width="116" height="123" rx="2"/></g>
+  <g stroke="#bba9c7" stroke-width="2"><path d="M566 156H642M566 170H629M566 184H638M709 142H785M709 156H771M709 170H779M853 168H929M853 182H916M853 196H925"/></g>
+  <g font-family="Georgia,'Times New Roman',serif" font-size="17" fill="#493554"><text x="568" y="224">Sources</text><text x="715" y="210">Dates</text><text x="850" y="236">Context</text></g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#5d426e"><text x="36" y="307">UNDIRECTED TOY LINKS · NO MUSICAL DATA</text><text x="536" y="307">NO DESCENT OR CAUSAL LINK IS DRAWN</text></g>
+</svg>
+

@@ -1,6 +1,6 @@
 # Data and copyright
 
-This candidate includes **no real music audio, lyrics, album art, track or artist metadata, listening history, participant records, research features, model weights or original research source code**.
+This public overview includes **no real music audio, lyrics, album art, track or artist metadata, listening history, participant records, research features, model weights or original research source code**.
 
 The synthetic illustration is generated entirely from deterministic arithmetic. Its neutral node IDs have no link to any recording or person. The diagrams and graph preview are newly authored for this portfolio; no research figure, music artwork or third-party image was reused.
 

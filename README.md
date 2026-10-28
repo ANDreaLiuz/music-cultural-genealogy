@@ -1,5 +1,7 @@
 # Music Cultural Genealogy
 
+> **Visual edition V6 · 28 October 2026.** Research evidence and limitations are unchanged.
+
 ### Mapping Musical Relationships Beyond Genre Labels
 
 **Research in progress · Computational exploration · Independent perceptual validation pending**

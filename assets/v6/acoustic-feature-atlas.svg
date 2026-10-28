@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 550" role="img" aria-labelledby="title desc">
+  <title id="title">Acoustic-feature atlas — conceptual illustration</title>
+  <desc id="desc">Original abstract shapes suggest texture, repetition and layering as listening questions. These marks contain no recordings, waveforms, measurements or research features.</desc>
+  <defs>
+    <pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2.3" fill="#735488"/></pattern>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V12" stroke="#735488" stroke-width="3"/></pattern>
+  </defs>
+  <rect width="560" height="550" fill="#eee8f1"/>
+  <g fill="none" stroke="#d4c7dc"><path d="M28 41H532M28 510H532M28 41V510M532 41V510"/><path d="M52 185H508M52 337H508"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#493554" letter-spacing="2">
+    <text x="52" y="75">TEXTURE</text><text x="52" y="227">REPETITION</text><text x="52" y="379">LAYERING</text>
+  </g>
+  <g>
+    <circle cx="105" cy="132" r="33" fill="url(#dots)"/>
+    <rect x="206" y="101" width="64" height="64" rx="3" fill="url(#hatch)"/>
+    <g fill="none" stroke="#735488" stroke-width="3"><path d="M347 155V112Q347 97 362 97H402M359 160V124Q359 109 374 109H414M371 165V136Q371 121 386 121H426"/></g>
+    <g fill="#735488"><circle cx="474" cy="110" r="7"/><circle cx="490" cy="135" r="4"/><circle cx="461" cy="151" r="10"/></g>
+  </g>
+  <g fill="#735488">
+    <rect x="72" y="267" width="12" height="44" rx="6"/><rect x="99" y="267" width="12" height="44" rx="6"/><rect x="126" y="267" width="12" height="44" rx="6"/>
+    <circle cx="217" cy="289" r="14"/><circle cx="250" cy="289" r="7"/><circle cx="281" cy="289" r="14"/>
+    <path d="M351 305L368 273L385 305ZM402 305L419 273L436 305Z"/>
+    <circle cx="481" cy="276" r="5"/><circle cx="481" cy="300" r="5"/>
+  </g>
+  <g fill="none" stroke="#735488" stroke-width="2.5">
+    <ellipse cx="112" cy="443" rx="42" ry="18"/><ellipse cx="112" cy="432" rx="42" ry="18"/><ellipse cx="112" cy="421" rx="42" ry="18"/>
+    <rect x="209" y="418" width="52" height="43" rx="3"/><rect x="220" y="407" width="52" height="43" rx="3"/>
+    <circle cx="366" cy="434" r="28"/><circle cx="392" cy="434" r="28"/>
+    <path d="M462 417H493M462 433H493M462 449H493"/>
+  </g>
+  <g fill="#5d426e"><circle cx="28" cy="41" r="3"/><circle cx="532" cy="510" r="3"/></g>
+  <text x="52" y="533" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="1.4" fill="#5d426e">IMAGINED CUES / NO AUDIO MEASURED</text>
+</svg>
